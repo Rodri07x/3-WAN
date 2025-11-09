@@ -17,7 +17,46 @@ public class MenuPrincipalAdministrador {
             System.out.println("4.Ediciones");
             System.out.println("5.Salir del menú");
             int opcionMenu = sc.nextInt();
-        }
-        sc.close();
-    }
-}
+            switch (opcionMenu) {
+                case 1:
+                    System.out.println();
+                    System.out.println("--Sección Eventos--"); //Gestión básica de eventos -- Rodrigo Martin
+                    System.out.println("Escriba una acción (1-4)");
+                    System.out.println("1.Registrar evento");
+                    System.out.println("2.Eventos existentes");
+                    System.out.println("3.Actualizar evento");
+                    System.out.println("4.Eliminar evento");
+                    int opcionEventos = sc.nextInt();
+                    sc.nextLine();
+                    switch (opcionEventos) {
+                        case 1:
+                            System.out.println("Ingrese nombre del evento");
+                            String nombreEvento = sc.nextLine();
+                            System.out.println("Ingrese descripción del evento");
+                            String descripcionEvento = sc.nextLine();
+                            System.out.println("Evento registrado exitosamente");
+                            break;
+                        case 2:
+                            System.out.println("Listado de eventos:");
+                            System.out.println("*");
+                            System.out.println("*");
+                            System.out.println("*");
+                            System.out.println("*");
+                            System.out.println("*");
+                            break;
+                        case 3:
+                            System.out.println("Ingrese el nombre del evento a actualizar");
+                            String eventoActualizar = sc.nextLine();
+                            System.out.println("Ingrese nuevos datos del evento");
+                            String datosEvento = sc.nextLine();
+                            System.out.println("Evento actualizado");
+                            break;
+                        case 4:
+                            System.out.println("Ingrese el nombre del evento a eliminar");
+                            String eventoEliminar = sc.nextLine();
+                            System.out.println("Evento eliminado");
+                            break;
+                        default:
+                            System.out.println("Opción mala, escriba un número del 1 al 4");
+                    }
+                    break;
