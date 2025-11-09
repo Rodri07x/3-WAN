@@ -102,3 +102,56 @@ public class MenuPrincipalAdministrador {
                             System.out.println("Opción mala, escriba un número del 1 al 4");
                     }
                     break;
+                    case 3:
+                    System.out.println();
+                    System.out.println("--Sección Deportistas--"); //Gestión y consultas de deportistas -- Rodrigo Martin
+                    System.out.println("Escriba una acción (1-6)");
+                    System.out.println("1.Registrar deportista");
+                    System.out.println("2.Deportistas activos");
+                    System.out.println("3.Horario del deportista");
+                    System.out.println("4.Competición próxima");
+                    System.out.println("5.Actualizar datos del deportista");
+                    System.out.println("6.Eliminar deportista");
+                    int opcionDeportistas = sc.nextInt();
+                    sc.nextLine();
+                    switch (opcionDeportistas) {
+                        case 1:
+                            System.out.println("Ingrese nombre del deportista");
+                            String nombreDeportista = sc.nextLine();
+                            System.out.println("Ingrese categoría del deportista");
+                            String categoriaDeportista = sc.nextLine();
+                            System.out.println("Deportista inscrito exitosamente");
+                            break;
+                        case 2:
+                            System.out.println("Listado de deportistas activos:");
+                            System.out.println("*");
+                            System.out.println("*");
+                            System.out.println("*");
+                            System.out.println("*");
+                            System.out.println("*");
+                            break;
+                        case 3:
+                            System.out.println("Ingrese el nombre del deportista para ver horario");
+                            String deportistaHorario = sc.nextLine();
+                            System.out.println("El horario de " + deportistaHorario + " es de 08:00 a 20:00");
+                            break;
+                        case 4:
+                            System.out.println("Ingrese el nombre del deportista para ver competición");
+                            String deportistaCompeticion = sc.nextLine();
+                            System.out.println("La próxima competición de " + deportistaCompeticion + " es el mes próximo");
+                            break;
+                        case 5:
+                            System.out.println("Ingrese el nombre del deportista a actualizar");
+                            System.out.println("Ingrese nuevos datos del deportista");
+                            String datosDeportista = sc.nextLine();
+                            System.out.println("Datos actualizados");
+                            break;
+                        case 6:
+                            System.out.println("Ingrese el nombre del deportista a eliminar");
+                            String deportistaEliminar = sc.nextLine();
+                            System.out.println("Deportista eliminado");
+                            break;
+                        default:
+                            System.out.println("Opción mala, escriba un número del 1 al 6");
+                    }
+                    break;
