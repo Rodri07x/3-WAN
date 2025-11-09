@@ -155,3 +155,56 @@ public class MenuPrincipalAdministrador {
                             System.out.println("Opción mala, escriba un número del 1 al 6");
                     }
                     break;
+                    case 4:
+                    System.out.println();
+                    System.out.println("--Sección Ediciones--"); //Control de ediciones de eventos -- Rodrigo Martin
+                    System.out.println("Escriba una acción (1-4)");
+                    System.out.println("1.Registrar edición");
+                    System.out.println("2.Ediciones disponibles");
+                    System.out.println("3.Actualizar edición");
+                    System.out.println("4.Eliminar edición");
+                    int opcionEdiciones = sc.nextInt();
+                    sc.nextLine();
+                    switch (opcionEdiciones) {
+                        case 1:
+                            System.out.println("Ingrese nombre de la edición");
+                            String nombreEdicion = sc.nextLine();
+                            System.out.println("Ingrese fecha de la edición");
+                            String fechaEdicion = sc.nextLine();
+                            System.out.println("Edición registrada exitosamente");
+                            break;
+                        case 2:
+                            System.out.println("Listado de ediciones:");
+                            System.out.println("*");
+                            System.out.println("*");
+                            System.out.println("*");
+                            System.out.println("*");
+                            System.out.println("*");
+                            break;
+                        case 3:
+                            System.out.println("Ingrese el nombre de la edición a actualizar");
+                            String edicionActualizar = sc.nextLine();
+                            System.out.println("Ingrese nuevos datos de la edición");
+                            String datosEdicion = sc.nextLine();
+                            System.out.println("Edición actualizada");
+                            break;
+                        case 4:
+                            System.out.println("Ingrese el nombre de la edición a eliminar");
+                            String edicionEliminar = sc.nextLine();
+                            System.out.println("Edición eliminada");
+                            break;
+                        default:
+                            System.out.println("Opción mala, escriba un número del 1 al 4");
+                    }
+                    break;
+                case 5:
+                    salir = true;
+                    System.out.println("Agur"); //Mensaje de salida del administrador -- Rodrigo Martin
+                    break;
+                default:
+                    System.out.println("Opción mala, escriba un número del 1 al 5"); //Validación del menú principal -- Rodrigo Martin
+            }
+        }
+        sc.close();
+    }
+}
