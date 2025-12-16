@@ -1,5 +1,43 @@
 # RETO2 – 3-WAN
 
+# SPRINT 1 LMSGI
+
+Pagina web de RocktheSport.
+
+## Contenido
+
+La web está en la carpeta [SPRINT1LMSGI/](SPRINT1LMSGI/):
+
+- [estructura.html](SPRINT1LMSGI/estructura.html): estructura base.
+- [Productos.html](SPRINT1LMSGI/Productos.html): página de productos. (Falta añadir esto al esquema de la BBDD)
+- [Eventos.html](SPRINT1LMSGI/Eventos.html): página de eventos.
+- [iniciar sesion.html](SPRINT1LMSGI/iniciar%20sesion.html): formulario de inicio de sesión.
+- [procesar-formulario.html](SPRINT1LMSGI/procesar-formulario.html): procesado del formulario.
+
+Estilos en [SPRINT1LMSGI/css/](SPRINT1LMSGI/css/):
+
+- [stylessprint.css](SPRINT1LMSGI/css/stylessprint.css)
+- [Productos.css](SPRINT1LMSGI/css/Productos.css)
+- [eventos.css](SPRINT1LMSGI/css/eventos.css)
+- [iniciarSesion.css](SPRINT1LMSGI/css/iniciarSesion.css)
+- [formulario.css](SPRINT1LMSGI/css/formulario.css)
+
+Recursos:
+
+- [SPRINT1LMSGI/img/](SPRINT1LMSGI/img/)
+- [SPRINT1LMSGI/js/](SPRINT1LMSGI/js/) (vacía por ahora debido que al momento no tenemos planificacion creada -- Rodrigo)
+
+## Ejecutar
+
+Al ser HTML/CSS, basta con abrir los archivos `.html` en el navegador.
+
+Recomendado desde VS Code: abrir [estructura.html](SPRINT1LMSGI/estructura.html) y usar una extensión tipo Live Server.
+
+## Notas
+
+- No requiere compilación.
+- El JavaScript irá en [SPRINT1LMSGI/js/](SPRINT1LMSGI/js/) cuando se añada.
+
 # SPRINT 1 PROGRAM
 
 Ejercicios de consola en Java para el RETO2 (Sprint 1). Tiene **inicio de sesión**, **registro** y **menús** para administrador y usuario final.
@@ -19,7 +57,7 @@ Estos archivos usan el paquete `RETO2.SPRINT1PROGRAM`, así que lo más simple e
 
 ## Notas
 
-- Los datos (usuarios, contraseñas, etc.) se guardan en la memoria (Mas tarde nos pediran BBDD -- Rodrigo Martin)
+- Los datos (usuarios, contraseñas, etc.) se guardan en la memoria (Mas tarde nos pediran BBDD -- Rodrigo)
 - Imports:
 
 - **Arraylist**
