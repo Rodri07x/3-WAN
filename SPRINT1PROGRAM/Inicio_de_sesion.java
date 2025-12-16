@@ -6,12 +6,12 @@ import java.util.Scanner;
 public class Inicio_de_sesion {
     public static void main(String[] args) {
         ArrayList<String> usuarios = new ArrayList<>();
-        usuarios.add("Daniel");
+        usuarios.add("Aritz");
         usuarios.add("Telmo");
         usuarios.add("Rodrigo");
 
         ArrayList<String> contraseñas = new ArrayList<>();
-        contraseñas.add("claveDaniel");
+        contraseñas.add("claveAritz");
         contraseñas.add("claveTelmo");
         contraseñas.add("claveRodrigo");
 
