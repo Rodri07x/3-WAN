@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Inscripción</title>
+  <link rel="stylesheet" href="eventos.css">
+</head>
+<body>
+  <header>
+    <h1>Inscripción a Evento</h1>
+  </header>
+
+  <main>
+    <h2>Formulario de Inscripción</h2>
+    <p>Completa el siguiente formulario para participar en el evento seleccionado.</p>
+
+    <form action="#" method="post">
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" required>
+
+      <label for="evento">Evento al que te inscribes:</label>
+      <select id="evento" name="evento">
+        <option value="Carrera">Behobia-SanSebastian</option>
+        <option value="Maraton">Maraton 10K en Irún</option>
+        <option value="Triatlon">Triatlon de Guipúzcoa</option>
+      </select>
+
+      <label for="pago">Metodo de pago:</label>
+      <select id="evento" name="evento">
+        <option value="paypal">PayPal</option>
+        <option value="BBVA">Tarjeta BBVA</option>
+        <option value="Bizum">Bizum</option>
+        <option value="Otro">Otro</option>
+      </select>
+      
+      <label for="Tarjeta">Número de tarjeta:</label>
+      <input type="Num" id="Tarjeta" name="Numero de tarjeta" required>
+      <button type="submit">Pagar inscripción</button>
+    
+     
+    </form>
+  </main>
+
+  <footer>
+    <p> &copy; 2025 Rock The Sport - Grupo 3-WAN. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
