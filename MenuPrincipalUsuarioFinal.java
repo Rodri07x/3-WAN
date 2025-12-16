@@ -1,4 +1,4 @@
-package Sprint2Program.Sprint4;
+package RETO2.SPRINT1PROGRAM.Sprint4;
 
 import java.util.Scanner;
 
