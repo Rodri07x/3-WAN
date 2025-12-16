@@ -31,7 +31,7 @@ Recursos:
 
 Al ser HTML/CSS, basta con abrir los archivos `.html` en el navegador.
 
-Recomendado desde VS Code: abrir [estructura.html](SPRINT1LMSGI/estructura.html) y usar una extensión tipo Live Server. (O el preview de Microsoft)
+Recomendado desde VS Code: abrir [estructura.html](SPRINT1LMSGI/estructura.html) y usar una extensión tipo Live Server. (O el preview de Microsoft -- Rodrigo)
 
 ## Notas
 
