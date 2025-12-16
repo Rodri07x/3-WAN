@@ -35,7 +35,7 @@ Recomendado desde VS Code: abrir [estructura.html](SPRINT1LMSGI/estructura.html)
 
 ## Notas
 
-- No requiere compilación.
+- Seguramente se añada Boostrap a la pagina esta estara como CDN en los html -- Rodrigo
 - El JavaScript irá en [SPRINT1LMSGI/js/](SPRINT1LMSGI/js/) cuando se añada.
 
 # SPRINT 1 PROGRAM
