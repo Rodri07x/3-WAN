@@ -9,7 +9,7 @@ Pagina web de RocktheSport.
 La web está en la carpeta [SPRINT1LMSGI/](SPRINT1LMSGI/):
 
 - [estructura.html](SPRINT1LMSGI/estructura.html): estructura base.
-- [Productos.html](SPRINT1LMSGI/Productos.html): página de productos. (Falta añadir esto al esquema de la BBDD)
+- [Productos.html](SPRINT1LMSGI/Productos.html): página de productos. (Falta añadir esto al esquema de la BBDD -- Rodrigo) 
 - [Eventos.html](SPRINT1LMSGI/Eventos.html): página de eventos.
 - [iniciar sesion.html](SPRINT1LMSGI/iniciar%20sesion.html): formulario de inicio de sesión.
 - [procesar-formulario.html](SPRINT1LMSGI/procesar-formulario.html): procesado del formulario.
