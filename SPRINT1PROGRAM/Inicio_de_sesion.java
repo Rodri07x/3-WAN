@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Inicio_de_sesion {
     public static void main(String[] args) {
-        ArrayList<String> usuarios = new ArrayList<>();
+        ArrayList<String> usuarios = new ArrayList<>(); //Añadimos usuarios y contraseñas a listas (arraylist) -- Rodrigo
         usuarios.add("Aritz");
         usuarios.add("Telmo");
         usuarios.add("Rodrigo");
