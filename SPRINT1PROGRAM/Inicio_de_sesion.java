@@ -1,11 +1,19 @@
 package RETO2.SPRINT1PROGRAM;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Inicio_de_sesion {
     public static void main(String[] args) {
-        String[] usuarios = {"Daniel", "Telmo", "Rodrigo"};
-        String[] contraseñas = {"claveDaniel", "claveTelmo", "claveRodrigo"};
+        ArrayList<String> usuarios = new ArrayList<>();
+        usuarios.add("Daniel");
+        usuarios.add("Telmo");
+        usuarios.add("Rodrigo");
+
+        ArrayList<String> contraseñas = new ArrayList<>();
+        contraseñas.add("claveDaniel");
+        contraseñas.add("claveTelmo");
+        contraseñas.add("claveRodrigo");
 
         Scanner sc = new Scanner(System.in);
         boolean autenticado = false;
@@ -17,10 +25,10 @@ public class Inicio_de_sesion {
             System.out.println("Contraseña:");
             String contraseña = sc.nextLine();
 
-            for (int i = 0; i < usuarios.length; i++) {
-                if (usuario.equals(usuarios[i]) && contraseña.equals(contraseñas[i])) {
+            for (int i = 0; i < usuarios.size(); i++) {
+                if (usuario.equals(usuarios.get(i)) && contraseña.equals(contraseñas.get(i))) {
                     autenticado = true;
-                    break; // no le gusta usar break a Egoitz pero lo pongo porque a mi si -- Rodrigo
+                    break;
                 }
             }
 
