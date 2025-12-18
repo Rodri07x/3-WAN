@@ -115,4 +115,5 @@ INSERT INTO Productos (Nombre, Descripcion, Precio, Stock, Categoria, NdeEdició
 ('Botella de Agua', 'Capacidad 1L', 9.50, 300, 'Accesorios', 1),
 ('Gorra Running', 'Gorra ligera para correr', 12.00, 200, 'Ropa', 2),
 ('Mochila Trail', 'Mochila para trail running', 49.99, 75, 'Equipamiento', 3),
-('Pantalón Ciclista', 'Short para ciclismo', 29.99, 90, 'Ropa', 4);
+('Pantalón Ciclista', 'Short para ciclismo', 29.99, 90, 'Ropa', 4),
+('Zapatillas Running', 'Zapatillas deportivas para correr', 79.99, 120, 'Ropa', 5);
